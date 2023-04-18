@@ -1,0 +1,50 @@
+html{
+  background-color: hsl(150, 100%, 90%);
+}
+
+#title, #description {
+  text-align: center;
+}
+#description {
+  text: 12px;
+}
+
+#survey-form {
+  width: 60vw;
+  display:inline- block;
+  min-width: 500px;
+  margin: auto;
+  padding: auto;
+  text-align: left;
+  background-color: hsl(150, 100%, 97%)
+}
+
+div {
+  margin: 1em 0;
+}
+
+#email-label {
+  margin: 1em auto;
+  display: inline-block;
+}
+input[type='checkbox']{
+  margin: 1em 1em;
+  display: inline-block;
+}
+
+input[type='radio'] {
+  margin: 1em 1em;
+}
+
+#submit {
+  display: block;
+  margin: 1em auto;
+  padding: 5px;
+  width: 20%;
+}
+
+#comments {
+  margin: 0 auto;
+  display: block;
+  min-width: 40%;
+}
