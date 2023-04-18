@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <h1 id="title">Survey Title</h1>
+    <p id="description">Description for sample survey</p>
+    
+    <form id="survey-form">
+      <fieldset>
+        <label id='name-label'>Your name:
+          <input id="name" type="text" required placeholder='Your name here'/>
+        </label>
+        
+        <label id='email-label'>Your email: <input id="email" type="email" placeholder='your_email@website.com' required/> 
+        </label>
+        <label id='number-label'>Guess a number:<input id="number" type="number" min=0 max=100 placeholder='Your number here'/>
+        </label>
+      <div>
+        <label for="dropdown">Select an Option:
+          <select id='dropdown'>
+            <option>(select one)</option>
+            <option>Option 1</option>
+            <option>Option 2</option>
+          </select>
+      <div>
+        <label for='radiobuttons'> Choose a radiobutton:
+          <input name='radiobutton1' id='radiobutton1' type='radio' value='radio1'> Radio 1</input>
+          <input name='radiobutton2' id='radiobutton2' type='radio' value='radio2'> Radio 2</input>
+        </label>
+        </div>
+        <div>
+        <label for='radiobuttons'> Choose a radiobutton:
+          <input name='radiobutton1' id='radiobutton1' type='radio' value='radio1'> Radio 1</input>
+          <input name='radiobutton2' id='radiobutton2' type='radio' value='radio2'> Radio 2</input>
+        </label>
+      </div>
+        <label for='checkboxes'> Choose a checkbox:
+          <input name='checkbox1' id='checkbox1' type='checkbox' value='checkbox1'>Checkbox 1</input>
+          <input name='checkbox2' id='checkbox2' type='checkbox' value='checkbox2'>Checkbox 2</input>
+      </div>
+        </label>
+        
+    <label for='comments'>
+      <textarea id='comments' placeholder='Your comments here:' rows=5 cols=50> </textarea>
+      <button id='submit'>Submit</button>
+      </fieldset>
+    </form>
+  </body>
+</html>
